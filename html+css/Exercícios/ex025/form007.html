@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post"></form>
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <option value="Sp">São Paulo</option>
+            <option value="Mg">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <optgroup label="Região Nordeste">
+            <option value="Ma">Maranhão</option>
+            <option value="CA">Ceará</option>
+        </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="adm">administrador</option>
+            <option value="cont">contador</option>
+            <option value="eng">engenhiro</option>
+            <option value="adv">advogado</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsg">Mensagem:</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+    </p>
+</body>
+</html>

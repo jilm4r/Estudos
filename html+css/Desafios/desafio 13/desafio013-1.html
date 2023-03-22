@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        tr > td,th {
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Tabelas</h1>
+    <table>
+        <tr>
+            <th colspan="4" scope="colgroup">A</th>
+            <th rowspan="4" scope="rowgroup">B</th>
+        </tr>
+        <tr>
+            <th rowspan="4" scope="rowgroup">C</th>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <th colspan="4" scope="colgroup">M</th>
+        </tr>
+    </table>
+</body>
+</html>
