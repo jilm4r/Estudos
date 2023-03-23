@@ -63,7 +63,7 @@ header > p {
     box-shadow:inset 0px 1px 20px rgba(0, 0, 0, 0.8);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
     display: block;
-    max-height: 150vw;
+    max-height: 100vw;
     margin: 0;
     
 }
