@@ -10,7 +10,8 @@ Desktop: de 992px até 1200px
 Grandes tela: acima de 1200px
 */
 
-@media print {/*Impressora */
+@media print {
+    /*Impressora */
     body {
         background-image: url(../imagens/back-print.jpg);
        /*Desnecessario */
@@ -23,7 +24,8 @@ Grandes tela: acima de 1200px
     img#tv {display: none;}
 
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {/*Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /*Tablet */
     body {
         background-image: url(../imagens/back-tablet.jpg);
         background-size: cover;
@@ -37,7 +39,8 @@ Grandes tela: acima de 1200px
     img#tv {display: none;}
 
 }
-@media screen and (min-width:992px) and (max-width:1200px){/*Desktop */
+@media screen and (min-width:992px) and (max-width:1200px){
+    /*Desktop */
     body {
         background-image: url(../imagens/back-pc.jpg);
         background-position: center center;
@@ -51,7 +54,8 @@ Grandes tela: acima de 1200px
     img#tv {display: none;}
 
 }
-@media screen and (min-width: 1200px) {/*Grandes telas */
+@media screen and (min-width: 1200px) {
+    /*Grandes telas */
     body {
         background-image: url(../imagens/back-tv.jpg);
         background-position: center center;

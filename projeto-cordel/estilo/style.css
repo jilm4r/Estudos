@@ -57,7 +57,7 @@ header > p {
     max-height: 100vw;
     font-family: 'sriracha';
     padding-left: 30px;
-    padding-top: 40px;
+    padding-top: 40px ;
 }
 .content-image {
     box-shadow:inset 0px 1px 20px rgba(0, 0, 0, 0.8);
