@@ -73,7 +73,7 @@ header > p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
 }
 #image-2 {
     height: 100vw;
@@ -81,7 +81,7 @@ header > p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
 }
 
 #text {
