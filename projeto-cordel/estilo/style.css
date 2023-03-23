@@ -63,12 +63,12 @@ header > p {
     box-shadow:inset 0px 1px 20px rgba(0, 0, 0, 0.8);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
     display: block;
-    max-height: 100vw;
+    max-height: 60vw;
     margin: 0;
     
 }
 #image-1 {
-    height: 60vw;
+    height: 100vw;
     background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@ header > p {
     background-position: center;
 }
 #image-2 {
-    height: 60vw;
+    height: 100vw;
     background-image: url(../imagens/background002.jpg);
     background-repeat: no-repeat;
     background-size: cover;
