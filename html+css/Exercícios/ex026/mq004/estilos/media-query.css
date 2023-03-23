@@ -13,9 +13,19 @@ Grandes tela: acima de 1200px
 @media print {
     /*Impressora */
     body {
-        background-image: url(../imagens/back-print.jpg);
-       /*Desnecessario */
+       /* background-image: url(../imagens/back-print.jpg);
+       Desnecessario */
+       font-family: 'Courier New', Courier, monospace;
+       text-shadow: none;
+       color: black;
        
+    }
+    main {
+        border: 2px solid black;
+    }
+    main h1 { 
+        text-shadow: none;
+        color: black;
     }
     img#phone { display: none; }
     img#tablet {  display: none;}
