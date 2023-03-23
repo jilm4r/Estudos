@@ -68,7 +68,7 @@ header > p {
     
 }
 #image-1 {
-    height: 100vw;
+    height: 150vw;
     background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@ header > p {
     background-position: center center;
 }
 #image-2 {
-    height: 100vw;
+    height: 150vw;
     background-image: url(../imagens/background002.jpg);
     background-repeat: no-repeat;
     background-size: cover;
