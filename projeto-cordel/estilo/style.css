@@ -54,7 +54,7 @@ header > p {
 .content-normal > p {
     display: block;
     font-size: 3.5vw;
-    max-height: 200vw;
+    max-height: 100vw;
     font-family: 'sriracha';
     padding-left: 30px;
     padding-top: 40px;
